@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(233, 226, 218);
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 80px;
+    background-color: darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    padding-left: 20px;
+}
+
+nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    padding-left: 50px;
+    margin-left: auto;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 50px;
+    align-items: center;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: rgb(49, 49, 139);
+    text-decoration: underline;
+}
+
+.navbutton {
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 60px;
+}
+
+.navbutton:hover {
+    color: rgb(9, 9, 22);
+    box-shadow: 6px 6px 6px rgb(34, 33, 33);
+}
+section h1{
+    font-weight: 1000;
+}
+.preface {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 50px;
+    margin-left: auto;
+    padding-top: 100px;
+}
+
+.Topics {
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+}
+
+.prefacebutton {
+    background-color: darkcyan;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 140px;
+
+}
+
+.prefacebutton:hover {
+    background-color: rgb(91, 68, 194);
+    box-shadow: 4px 4px 4px rgb(75, 75, 75);
+}
+
+.prefacebutton a {
+    color: white;
+    text-decoration: none;
+}
+
+.playlists {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 30px;
+    padding-bottom: 60px;
+}
+
+.playlist {
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 10px;
+
+}
+
+.playlist img {
+    height: 180px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.playlist:hover {
+    background-color: rgb(181, 180, 180);
+    border-radius: 5px;
+}
+
+.searchbutton {
+    background-color: rgb(210, 213, 213);
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 250px;
+}
+
+.searchbutton:hover {
+    box-sizing: 5px;
+    box-shadow: 4px 4px 4px rgb(75, 75, 75);
+}
+
+.userreview {
+    background-color: bisque;
+    border: 1px black solid;
+}
+.userbutton{
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.backtotopbutton{
+    border-radius: 4px;
+    text-align: end;
+}
+.scrollbutton {
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgb(29, 29, 35);
+}
+
+.footer ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 30px;
+    padding-left: 50px;
+    margin-left: auto;
+}
+
+.footer li {
+    list-style: none;
+    padding-left: 60px;
+    padding-bottom: 30px;
+}
+
+.footer li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+ul li:hover{
+    text-decoration: underline;
+}
+
+.icons {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
